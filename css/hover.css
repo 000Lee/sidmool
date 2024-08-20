@@ -1,0 +1,104 @@
+#header{ width: 100%; padding-bottom: 30px;
+    background-color: black;
+    top: 0; left: 0;
+    z-index: 300;}
+
+.here p2{ display: block; text-align: center;}
+.here {
+    position: absolute;
+    left: 41.3%;top:20%;
+    color: #ffcc00;
+    animation-name: clickhere;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0;
+    animation-timing-function: linear;
+}
+
+@keyframes clickhere{
+    0%{top:20%;}
+    100%{top:30%;}
+}
+.headerin{
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+.headerin .lnb{
+    margin: 20px 0 24px 986px;
+    
+}
+.headerin .lnb li{
+    float: left; margin-left: 20px;
+    color: #33cc33;
+    font-size: 18px; font-weight: 300;
+}
+
+.logo img{width: 228px; height: 62px;}
+
+.menu>a{
+    position: absolute; top:67px; left:360px;
+}
+.menu .hover{font-size: 0; background-color:rgba(255, 204, 0, 0.7); border-radius: 5px;
+width: 40px; height: 40px; }
+
+.menu ul{
+    position: absolute;
+    top:72px; left:400px;
+}
+.menu li{ 
+    font-size: 24px; font-weight: 400;
+    margin-left: 30px;
+    float: left;
+}
+.menu li:hover {color: #ffcc00; transition: all 0.2s;}
+.gnb{
+    position: absolute;
+    top:67px; right: 0;
+}
+.gnb li{
+    float: left; margin-left: 30px; 
+}
+.gnb li a img{
+    width: 35px; height: 35px; 
+    
+}
+
+.menuin{
+    width: 1300px; margin: 30px auto;
+    background-color: rgba(255, 204, 0, 0.4);
+    border-radius: 30px;
+    
+}
+.hamhover{
+    padding: 20px 20px 20px 20px;
+}
+.hamhover>ul{
+    float: left; margin-right: 77px;
+    font-size: 18px; font-weight: 300;
+}
+.hamhover>ul:last-child{margin-right: 0;}
+.hamhover ul>li:nth-child(1){
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+    font-size: 24px; font-weight: 400; 
+    margin-bottom: 20px; padding-bottom: 10px;
+}
+
+.hamhover>ul:nth-child(6){font-size: 24px; font-weight: 400;}
+.hamhover>ul:nth-child(6) .on{border-bottom: 0;}
+.hamhover>ul:nth-child(7) .on{border-bottom: 0;}
+.hamhover>ul:nth-child(7){font-size: 24px; font-weight: 400;}
+
+.hamhover li{margin-top: 10px;}
+
+.hamhover>ul:last-child .my{
+    margin-top: 201px;
+}
+.hamhover li:hover{color:#ffcc00}
+
+
+
+
+
+.visual img{ width: 100%; height: auto; opacity: 0;}
